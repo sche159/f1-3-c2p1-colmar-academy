@@ -1,0 +1,267 @@
+
+/* Universal Styles */
+
+html {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 8px;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+/* Header */
+
+#logo {
+  height: 4rem;
+}
+
+header {
+  height: 8rem;
+  background-color: white;
+}
+
+.desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+.menu li {
+  display: inline;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.desktop span {
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
+  bottom: 1rem;
+}
+
+.desktop img {
+  height: 4.5rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    height: 8rem;
+  }
+  .menu,
+  #logo span {
+    display: none;
+  }
+}
+
+/* Landing */
+
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: hsla(175, 55%, 60%, 0.2);
+}
+
+.flex-container .main-banner h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.flex-container .main-banner h3 {
+  font-size: 3rem;
+  font-style: italic;
+  color: darkgrey;
+  line-height: 4rem;
+}
+
+.main-banner {
+  position: relative;
+  align-items: flex-start;
+  text-align: left;
+  right: 30rem;
+}
+
+.flex-container img {
+  width: 60%;
+  padding: 4rem 3rem;
+}
+
+/* Info */
+
+#info {
+  display: flex;
+}
+
+/* Info Pt 1 */
+
+.column-left {
+  width: 60%;
+  padding: 4rem 3rem;
+}
+
+.column-left .image-content img {
+  width: 63%;
+  padding-bottom: 3rem;
+}
+
+.column-left .image-content h2 {
+  padding-bottom:  3rem;
+}
+
+.column-left .image-content span {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: lighter;
+  color: darkgrey;
+}
+
+.column-left .image-content h4 {
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+
+/* Info Pt 2*/
+
+.column-right .content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.column-right .content img {
+  width: 35%;
+  height: auto;
+}
+
+.column-right .content h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.column-right .content span {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+/* Courses */
+
+.container {
+  background-color: hsla(175, 55%, 60%, 0.2);
+  padding: 4rem 9rem;
+}
+
+.container h2 {
+  position: relative;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.courses {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+
+.class {
+  display: block;
+}
+
+.class img {
+  display: block;
+  margin-bottom: 16px;
+  width: 35rem;
+}
+
+#course-title {
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+}
+
+.class span {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
+
+/* Thesis */
+
+.thesis .column-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 4rem 3rem;
+}
+
+.thesis h2 {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.video p {
+  padding: 0 3rem;
+  padding-bottom: 3rem;
+}
+
+#video-title {
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.video span {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
+
+.thesis .column-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 4rem 3rem;
+}
+
+.column-right .image-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.column-right .image-content img {
+  width: 35%;
+  height: auto;
+}
+
+.column-right .image-content h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.column-right .image-content span {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  border-top: thin dotted cadetblue;
+}
